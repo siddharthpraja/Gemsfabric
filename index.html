@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Gems Fabric</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img src="Image/logo-white1.webp" height="55px" width="100px" class="logo" alt=""></a>
+        <div>
+            <ul id="header-2">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="r-cart"><a href="cart.html">🛒</a></li>
+                <span href="#" id="close">✖️</span>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><span>🛒</span></a>  
+            <span id="bar">➡️</span>
+        </div>
+    </section>
+
+    <section id ="header1">
+        <h4>Try It Your Self</h4>
+        <h2> Best Seller Deals</h2>
+        <h3> On All Products</h3>
+        <P>Save upto 50% & 100% Free Shipping!</P>
+        <button onclick="window.location.href='shop.html';">Buy Now!</button>
+    </section>
+
+    <section id="header2"  class="section-p1">
+        <div class="box">
+            <img src="Image/Owl1.webp" alt="" height="100px" width="100px">
+            <H6> Owl Eye Black</H6>
+        </div>
+
+        <div class="box">
+            <img src="Image/ninja3.webp" alt="" height="100px" width="100px">
+            <H6> Ninja Knight White</H6>
+        </div>
+
+        <div class="box">
+            <img src="Image/Groot2.webp" alt="" height="100px" width="100px">
+            <H6> I am Groot 1 Black</H6>
+        </div>
+
+        <div class="box">
+            <img src="Image/groot1w.webp" alt="" height="100px" width="100px">
+            <H6> I am Groot 2 White</H6>
+        </div>
+
+        <div class="box">
+            <img src="Image/ninja1.webp" alt="" height="100px" width="100px">
+            <H6> Worrier Ninja Black </H6>
+        </div>
+
+        <div class="box">
+            <img src="Image/logo1.webp" alt="" height="100px" width="100px">
+            <H6> Simple Logo T-Shirt </H6>
+        </div>
+    </section>
+    
+    <section id="header3">
+        <h2> Featured Produsts</h2>
+        <p>Create Your Own Designe With Your Style</p>
+        <div class="product" >
+            <div class="pro">
+                <div class="small" >
+                <img src="Image/ninja1.webp"  onclick="replaceImage()" alt="">
+                </div>
+                <div class ="des">
+                    <span >Gems Collection</span>
+                    <h5 id="homename" >Owl Eye Black T-Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4 id=" homeprice">$199</h4>
+                </div>
+                <button>Add To Cart</button>
+            </div>
+            <div class="pro" onclick="window.location.href='sproduct.html';" >
+                <img src="Image/ninja3.webp" id="homeimg1" onclick="sendimg1()"  alt="">
+                <div class ="des">
+                    <span>Gems Collection</span>
+                    <h5>Ninja Knight White</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$199</h4>
+                </div>
+                <button>Add To Cart</button>
+            </div>
+            <div class="pro">
+                <img src="Image/Groot2.webp"  id="homeimg" alt="">
+                <div class ="des">
+                    <span>Gems Collection</span>
+                    <h5>I am Groot 1 Black</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$199</h4>
+                </div>
+                <button>Add To Cart</button>
+            </div>
+            <div class="pro">
+                <img src="Image/groot1w.webp" id="homeimg" alt="">
+                <div class ="des">
+                    <span>Gems Collection</span>
+                    <h5>I am Groot 2 White</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$199</h4>
+                </div>
+                <button>Add To Cart</button>
+            </div>
+            <div class="pro">
+                <img src="Image/ninja2.webp" id="homeimg" alt="">
+                <div class ="des">
+                    <span>Gems Collection</span>
+                    <h5> Worrier Ninja Black </h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$199</h4>
+                </div>
+                <button>Add To Cart</button>
+            </div>
+            <div class="pro">
+                <img src="Image/logo2.webp" id="homeimg" alt="">
+                <div class ="des">
+                    <span>Gems Collection</span>
+                    <h5> Simple logo Black T-Shirt </h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i> 
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$199</h4>
+                </div>
+                <button>Add To Cart</button>
+            </div>
+            <div class="pro">
+                <img src="Image/hanuman.webp" id="homeimg" alt="">
+                <div class ="des">
+                    <span>Gems Collection</span>
+                    <h5> Hanuman Yellow T-Shirt </h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$199</h4>
+                </div>
+                <button>Add To Cart</button>
+            </div>
+            <div class="pro">
+                <img src="Image/ninja4.webp" id="homeimg" alt="">
+                <div class ="des">
+                    <span>Gems Collection</span>
+                    <h5> Worrier Black T-Shirt </h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$199</h4>
+                </div>
+                <button>Add To Cart</button>
+            </div>
+            <div class="pro">
+                <img src="Image/black panther (2).webp" alt="">
+                <div class ="des">
+                    <span>Gems Collection</span>
+                    <h5> Black Panther Black T-Shirt </h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$199</h4>
+                </div>
+                <button>Add To Cart</button>
+            </div>
+            <div class="pro">
+                <img src="Image/logo1.webp" alt="">
+                <div class ="des">
+                    <span>Gems Collection</span>
+                    <h5> Simple logo White T-Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$199</h4>
+                </div>
+                <button>Add To Cart</button>
+            </div>
+            <div class="pro">
+                <img src="Image/ninja1.webp" alt="">
+                <div class ="des">
+                    <span>Gems Collection</span>
+                    <h5>  Ninja Black T-Shirt </h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$199</h4>
+                </div>
+                <button>Add To Cart</button>
+            </div>
+            <div class="pro">
+                <img src="Image/whitebg.webp" alt="">
+                <div class ="des">
+                    <span>Gems Collection</span>
+                    <h5> Simple Plain White T-Shirt </h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i> 
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$199</h4>
+                </div>
+                <button>Add To Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="header4" class="section-m1">
+        <h4> Get Premium Quality Cloths</h4>
+        <h2>Up to <span>50% off</span> on T-Shirts & Accessorise </h2>
+        <button> Explore More</button>
+    </section>
+
+    <section id="header3">
+        <h2> Featured Produsts</h2>
+        <p>Create Your Own Designe With Your Style</p>
+        <div class="product" >
+            <div class="pro">
+                <div class="small" >
+                <img src="Image/ninja1.webp"  onclick="replaceImage()" alt="">
+                </div>
+                <div class ="des">
+                    <span >Gems Collection</span>
+                    <h5 id="homename" >Owl Eye Black T-Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4 id=" homeprice">$199</h4>
+                </div>
+                <button>Add To Cart</button>
+            </div>
+            <div class="pro" onclick="window.location.href='sproduct.html';" >
+                <img src="Image/ninja3.webp" id="homeimg1" onclick="sendimg1()"  alt="">
+                <div class ="des">
+                    <span>Gems Collection</span>
+                    <h5>Ninja Knight White</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$199</h4>
+                </div>
+                <button>Add To Cart</button>
+            </div>
+            <div class="pro">
+                <img src="Image/Groot2.webp"  id="homeimg" alt="">
+                <div class ="des">
+                    <span>Gems Collection</span>
+                    <h5>I am Groot 1 Black</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$199</h4>
+                </div>
+                <button>Add To Cart</button>
+            </div>
+            <div class="pro">
+                <img src="Image/groot1w.webp" id="homeimg" alt="">
+                <div class ="des">
+                    <span>Gems Collection</span>
+                    <h5>I am Groot 2 White</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$199</h4>
+                </div>
+                <button>Add To Cart</button>
+            </div>
+            <div class="pro">
+                <img src="Image/ninja2.webp" id="homeimg" alt="">
+                <div class ="des">
+                    <span>Gems Collection</span>
+                    <h5> Worrier Ninja Black </h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$199</h4>
+                </div>
+                <button>Add To Cart</button>
+            </div>
+            <div class="pro">
+                <img src="Image/logo2.webp" id="homeimg" alt="">
+                <div class ="des">
+                    <span>Gems Collection</span>
+                    <h5> Simple logo Black T-Shirt </h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i> 
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$199</h4>
+                </div>
+                <button>Add To Cart</button>
+            </div>
+            <div class="pro">
+                <img src="Image/hanuman.webp" id="homeimg" alt="">
+                <div class ="des">
+                    <span>Gems Collection</span>
+                    <h5> Hanuman Yellow T-Shirt </h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$199</h4>
+                </div>
+                <button>Add To Cart</button>
+            </div>
+            <div class="pro">
+                <img src="Image/ninja4.webp" id="homeimg" alt="">
+                <div class ="des">
+                    <span>Gems Collection</span>
+                    <h5> Worrier Black T-Shirt </h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$199</h4>
+                </div>
+                <button>Add To Cart</button>
+            </div>
+            <div class="pro">
+                <img src="Image/black panther (2).webp" alt="">
+                <div class ="des">
+                    <span>Gems Collection</span>
+                    <h5> Black Panther Black T-Shirt </h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$199</h4>
+                </div>
+                <button>Add To Cart</button>
+            </div>
+            <div class="pro">
+                <img src="Image/logo1.webp" alt="">
+                <div class ="des">
+                    <span>Gems Collection</span>
+                    <h5> Simple logo White T-Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$199</h4>
+                </div>
+                <button>Add To Cart</button>
+            </div>
+            <div class="pro">
+                <img src="Image/ninja1.webp" alt="">
+                <div class ="des">
+                    <span>Gems Collection</span>
+                    <h5>  Ninja Black T-Shirt </h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$199</h4>
+                </div>
+                <button>Add To Cart</button>
+            </div>
+            <div class="pro">
+                <img src="Image/whitebg.webp" alt="">
+                <div class ="des">
+                    <span>Gems Collection</span>
+                    <h5> Simple Plain White T-Shirt </h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i> 
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$199</h4>
+                </div>
+                <button>Add To Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="header5" class="section-p1">
+        <div class="bannerbox">
+            <h4>Crazy Deals</h4>
+            <h2>Buy 3 get 1 free</h2>
+            <span>The Best Classic Dress is on sale at Crazy Deals</span>
+            <button>Learn More</button>
+        </div>
+        <div class="bannerbox bannerbox2">
+            <h4>New Deals</h4>
+            <h2>Buy A Jacket and get T-Shirt free</h2>
+            <span>The Best Classic Dress is on sale at Crazy Deals</span>
+            <button>Learn More</button>
+        </div>
+    </section>
+
+    <section id="header6">
+        <div class="bannerbox">
+            <h2>Seasonal Sale</h2>
+            <h3>Winter Collection - 70%</h3>
+        </div>
+        <div class="bannerbox bannerbox2">
+            <h2>Seasonal Sale</h2>
+            <h3>Summer Collection - 70%</h3>
+        </div>
+        <div class="bannerbox bannerbox3">
+            <h2>Seasonal Sale</h2>
+            <b><h3>Raining Collection - 70%</h3></b>
+        </div>
+        <div>
+            <h4></h4>
+        </div>
+    </section>
+
+    <section id="header7" class="section-p1 section-m1">
+        <div class="email">
+            <h4>Sign of For Newslatter</h4>
+            <p>Get E-mail updates about latest shop <span>Special offer</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Enter Your Email Id">
+            <button class="normal">Sing Up</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img src="Image/logo-black1.webp" height="55px" width="100px" class="logo">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> 701 Siddharth Complex Nallasopara(East) Maharastra-401209</p>
+            <p><strong>Phone:</strong> (+01) 25255 256 / (+91) 8080429365 </p>
+            <p><strong>Phone:</strong> 10:00 to 06:00  Mon - Sat </p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <span> <a href="https://www.instagram.com/i_m_decent_b0y/"> <img src="Image/insta.webp" width="20px" alt=""></a></span>
+                    <span><a href="https://www.youtube.com/channel/UCvZ-48TlplNaAPqbPEbn0RA"><img src="Image/youtube.webp" width="25px" alt=""></a></span>
+                    <span><a href="https://www.facebook.com/gautampraja/"><img src="Image/facebook.webp" width="20px" alt=""></a></span>
+                    <span><a href="https://wa.me/qr/QGCZRCT32VEIF1"><img src="Image/whatsapp.webp" width="25px" alt=""></a></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="about.html">About us</a>
+            <a href="#">Delivery Status</a>
+            <a href="about.html">Privarcy Policy</a>
+            <a href="blog.html">Terms & Conditions</a>
+            <a href="contact.html">contact us</a>
+        </div>  
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">My Account</a>
+            <a href="#">Sign In
+            </a>
+            <a href="cart.html">View cart</a>
+            <a href="cart.html">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="contact.html">Help</a>
+        </div>
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store Or Google Play Store</p>
+            <div class="row">
+                <img src="Image/Apple1.webp" height="50px" width="155px" alt="">
+                <img src="Image/google-play.webp" height="50px" width="155px" alt="">
+            </div>
+            <p>Secure Payment Getway</p>
+            <img src="Image/images (2).webp" height="50px" width="290px" alt="">
+        </div>
+        <div class="copy">
+            <p >@ 2022, Tech etc - HTML CSS Ecommerce Template</p>
+        </div>
+    </footer>
+        
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
